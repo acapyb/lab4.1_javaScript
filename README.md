@@ -1,24 +1,27 @@
-# JavaScript Part 1 Exercises
+# Lab 4.1 JavaScript
 
-Simple HTML and JavaScript examples from Chapter 4.
+Simple JavaScript examples using internal, external, and form validation scripts.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Example1a.html` | JavaScript inside the `<head>` and `<body>` sections |
-| `Example1b.html` | HTML page linked to an external JavaScript file |
-| `myjs.js` | External JavaScript file with the `popup()` function |
+| `internalJS.html` | JavaScript written inside the HTML page |
+| `externalJS.html` | HTML page linked to an external JavaScript file (`script.js`) |
+| `script.js` | External JavaScript file |
+| `registration_form.html` | Registration form page |
+| `registration.js` | JavaScript for the registration form |
+| `styles.css` | Stylesheet for the pages |
 
 ## How to Run
 
 1. Save all files in the same folder.
-2. Open `Example1a.html` in a browser to see the alert boxes and page output.
-3. Open `Example1b.html` and click **Click Me!** to display the alert from `myjs.js`.
+2. Open `internalJS.html` or `externalJS.html` in a browser.
+3. Open `registration_form.html` and test the form.
 
 ## Notes
 
-- JavaScript inside an HTML page uses the `<script>` tag.
-- An external JavaScript file ends with `.js` and does not use the `<script>` tag.
-- Link an external file with:
-  `<script src="myjs.js"></script>`
+- Internal JavaScript uses the `<script>` tag inside the HTML file.
+- External JavaScript is linked with:
+  `<script src="script.js"></script>`
+- An external `.js` file does not use the `<script>` tag.
